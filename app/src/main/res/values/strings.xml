@@ -1,0 +1,42 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Sunshine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_refresh"
+        translatable="false">Refresh</string>
+    <string name="action_view_map_location_label"
+        translatable="false">View On Map</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">95620</string>
+
+    <string name="pref_metric_fahrenheit">Fahrenheit</string>
+    <string name="pref_metric_fahrenheit_value">imperial</string>
+    <string name="pref_metric_celsius">Celsius</string>
+    <string name="pref_metric_celsius_value">metric</string>
+    <string name="pref_metric_label">Metric</string>
+    <string name="pref_metric_key">metric</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+    <string name="format_wind_mph">
+        Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+    <string name="format_wind_kmh">
+        Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+    <string name="format_pressure">
+        Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa
+    </string>
+    <string name="format_humidity">
+        Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%
+    </string>
+</resources>
